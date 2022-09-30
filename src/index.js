@@ -12,7 +12,7 @@ function App() {
     }, []);
 
     return mapData ? <NYCMap mapData={mapData.features} /> : null;
-}
+}d
 
 var mountNode = document.getElementById("app");
 ReactDOM.render(<App />, mountNode);
